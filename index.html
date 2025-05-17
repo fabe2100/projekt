@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <!--sat viewport to control the view on devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--inserted an extern css file to my html code-->
+  <link rel="stylesheet" href="stylesheet.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
+  <!--font awesome-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Botkyrkas Färdtjänst Resor</title>
+</head>
+
+<body>
+  <div class="content-wrap">
+    <!--skip link-->
+    <a href="#main-content" class="skip">Skip to content</a>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header.logo">
+          <a href="index.html" class="desktop-logo-link">
+            <img class="logo desktop-logo" src="bilder/logofard.png" alt="botkyrkas färdtjänst logo">
+          </a>
+          <!--icons-->
+          <div class="icons">
+            <a href="loggain.html">
+              <span class="material-icons" style="font-size: 40px">person </span></a>
+            <a href="loggain.html">
+              <p class="loggain">LOGGA IN</p>
+            </a>
+
+            <div class="searchbar">
+              <input type="text" class="searchTerm" placeholder="Vad letar du efter?" aria-label="vad letar du efter">
+              <button type="submit" class="searchButton" aria-label="search-button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="desktop-menu">
+            <!--Desktop menu-->
+            <div class="topnav" id="myTopnav">
+
+              <a href="index.html" class="active">HEM</a>
+              <a href="bokaresa.html">BOKA</a>
+              <a href="resadetaljer.html">ÄNDRA/AVBOKA</a>
+              <a href="merinfo.html">MER INFO</a>
+              <a href="kontakt.html">KONTAKT</a>
+
+              <a href="javascript:void(0);" aria-label="bars-ikon" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <!--mobile menu-->
+
+        <nav role="navigation" aria-label="Mobile Navigation">
+
+          <div class="mobile-menu">
+            <div class="topnav-mobile">
+
+              <a href="index.html" class="active mobile-logo-link"><img class="mobile-logo" src="bilder/logofard.png"
+                  alt="logo färdtjänst" style="width:150px;"></a>
+              <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu-links"
+                onclick="toggleMenu()">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+              </button>
+              <div id="mobile-menu-links" class="mobile-menu-links" hidden>
+                <a href="index.html">HEM</a>
+                <a href="loggain.html">MINA SIDOR</a>
+                <a href="bokaresa.html">BOKA</a>
+                <a href="resadetaljer.html">ÄNDRA/AVBOKA</a>
+                <a href="merinfo.html">MER INFO</a>
+                <a href="kontakt.html">KONTAKT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main id="main-content">
+        <div class="searchbar-mobile">
+
+          <input type="text" aria-label="search" class="searchTerm-mobile" placeholder="Vad letar du efter?">
+          <button type="submit" aria-label="search-button" class="searchButton-mobile">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        <figure>
+          <picture tabindex="0">
+            <source media="(min-width: 1400px)" srcset="bilder/bildesktop.jpg">
+            <source media="(min-width: 100px)" srcset="bilder/bilmobil.jpg">
+            <img src="bilder/bildesktop.jpg" class="img" alt="färdtjänst bil">
+          </picture>
+        </figure>
+
+        <article tabindex="0">
+          <div class="text">
+            <h1>Färdtjänst</h1>
+            <p>Färdtjänst är en särskild anpassad kollektivtrafik som kan beviljas om man har en varaktig
+              funktionsnedättning som är mer än 3 månader.
+              Den gör att man inte klarar att resa med vanlig kollektivtrafik på egen hand.
+
+              Kommunen utgår från lagen om färdtjänst för att besluta och värdera om personer som söker tillståndet har
+              väsentliga svårigheter att förflytta sig på egen hand. Man kan också ansöka om ledsagare som följer och
+              hjälper till.</p>
+            <br>
+            <h1>Bra att veta:</h1>
+            <ul>
+              <li>På sidan kan du <strong>boka</strong>, <strong>ändra </strong>eller <strong>avboka</strong> dina
+                resor. Genom att logga in antingen
+                med bankid eller lösenord.</li>
+              <li>Det finns möjlighet att boka återkommande resor.</li>
+              <li>Man kan ha med sig en ledsagare som åker gratis eller en medresenär som betalar samma pris som du.
+              </li>
+              <li>Du behöver ha med dig färdtjänstkortet för att starta och avsluta
+                en resa. </li>
+              <li>Man kan ta med sig sin rullstol, rullator, djur, barnvagn, bagage
+                som inte är större än två matkassar och övriga hjälpmedel.</li>
+              <li>Du kan boka dina resor 14 dagar fram i tiden.</li>
+              <li>Avgiften på resan ligger på 84kr om resans sträcka är under 3 mil. </li>
+              <li>Bokning av en resa gör du enkelt genom att klicka på Boka under Menyn. Där fyller du i ditt
+                personnummer
+                och dina personliga kontaktuppgifter samt plats, tid och dina Tillval.</li>
+              <li>Detsamma gäller för ändring och avbokning av en resa, den kan du göra under Änra/Avboka
+                som finns i menyn på starten av hemsidan. </li>
+            </ul>
+            <br>
+            <br>
+            <h1>Behöver du hjälp?</h1>
+            <p>Tveka inte att kontakta oss om du behöver ytterligare information
+              vad gäller färdtjänsten eller läs mer under kategorin<span><a href="merinfo.html"> Mer Info.</a></span>
+              Telefonnummer :<span style="color:#A42B23"> 0771-123 456</span>
+              Mail adress: <a
+                href="mailto:kundcenter@botkyrkasfardtjanstresor.se">kundcenter@botkyrkasfardtjanstresor.se</a></p>
+          </div>
+
+        </article>
+      </main>
+    </div>
+    <br>
+    <br>
+  </div>
+  <footer>
+    <div class="logo-footer">
+      <a href="index-2.html">
+        <img src="bilder/logofard.png" alt="botkyrkas färdtjänst logo">
+      </a>
+
+    </div>
+    <div class="footer-icons">
+      <h1 class="kontakt" tabindex="0">KONTAKTA OSS</h1>
+      <span class="material-icons" style="font-size:30px;">phone </span>
+      <p class="telefon" tabindex="0">TEl: 0771-123 456</p>
+      <span class="material-icons" style="font-size:30px;">mail </span>
+      <a href="mailto:kundcenter@botkyrkasfardtjanstresor.se">
+        <p class="mail">kundcenter@botkyrkasfardtjanstresor.se
+        </p>
+      </a>
+    </div>
+
+    <h1 class="footer-text" style="font-size: 1.2em; "> &copy;
+      2021 Botkyrkas Färdtjänst Resor</h1>
+    <a href="tillganglig.html">
+      <h1 class="tillganglig">Tillgänglighetsredogörelse</h1>
+    </a>
+  </footer>
+  </div>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobile-menu-links');
+      const button = document.querySelector('.hamburger');
+      const isExpanded = button.getAttribute('aria-expanded') === 'true';
+      if (isExpanded) {
+        menu.hidden = true;
+        button.setAttribute('aria-expanded', 'false');
+      } else {
+        menu.hidden = false;
+        button.setAttribute('aria-expanded', 'true');
+      }
+    }
+  </script>
+</body>
+
+</html>

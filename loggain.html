@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+
+<!-- Mirrored from studenter.miun.se/~fabe2100/dt068G/projekt/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Apr 2025 05:29:48 GMT -->
+
+<head>
+  <meta charset="UTF-8">
+  <!--sat viewport to control the view on devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--inserted an extern css file to my html code-->
+  <link rel="stylesheet" href="stylesheet.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
+  <!--font awesome-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Botkyrkas Färdtjänst Resor</title>
+</head>
+
+<body>
+  <div class="content-wrap">
+    <!--skip link-->
+    <a href="#main-content" class="skip">Skip to content</a>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header.logo">
+          <a href="index.html" class="desktop-logo-link">
+            <img class="logo desktop-logo" src="bilder/logofard.png" alt="botkyrkas färdtjänst logo">
+          </a>
+          <!--icons-->
+          <div class="icons">
+            <a href="loggain.html">
+              <span class="material-icons" style="font-size: 40px">person </span></a>
+            <a href="loggain.html">
+              <p class="loggain">LOGGA IN</p>
+            </a>
+
+            <div class="searchbar">
+              <input type="text" class="searchTerm" placeholder="Vad letar du efter?" aria-label="vad letar du efter">
+              <button type="submit" class="searchButton" aria-label="search-button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="desktop-menu">
+            <!--Desktop menu-->
+            <div class="topnav" id="myTopnav">
+
+              <a href="index.html">HEM</a>
+              <a href="bokaresa.html">BOKA</a>
+              <a href="resadetaljer.html">ÄNDRA/AVBOKA</a>
+              <a href="merinfo.html">MER INFO</a>
+              <a href="kontakt.html">KONTAKT</a>
+
+              <a href="javascript:void(0);" aria-label="bars-ikon" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <!--mobile menu-->
+
+        <nav role="navigation" aria-label="Mobile Navigation">
+
+          <div class="mobile-menu">
+            <div class="topnav-mobile">
+
+              <a href="index.html" class="active mobile-logo-link"><img class="mobile-logo" src="bilder/logofard.png"
+                  alt="logo färdtjänst" style="width:150px;"></a>
+              <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu-links"
+                onclick="toggleMenu()">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+              </button>
+              <div id="mobile-menu-links" class="mobile-menu-links" hidden>
+                <a href="index.html">HEM</a>
+                <a href="loggain.html">MINA SIDOR</a>
+                <a href="bokaresa.html">BOKA</a>
+                <a href="resadetaljer.html">ÄNDRA/AVBOKA</a>
+                <a href="merinfo.html">MER INFO</a>
+                <a href="kontakt.html">KONTAKT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="searchbar-mobile">
+
+        <input type="text" aria-label="search" class="searchTerm-mobile" placeholder="Vad letar du efter?">
+        <button type="submit" aria-label="search-button" class="searchButton-mobile">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+
+      <main id="main-content" tabindex="0">
+        <form aria-label="formulär för att logga in" autocomplete="on">
+          <div class="container-mobile">
+
+            <h1 class="minasidor-loggain">Logga in på mina sidor</h1><br><br>
+            <input type="text" id="personnummer" placeholder="Fyll i personnummer (ÅÅÅÅMMDD-NNNN)"
+              name="personnummer"><br><br>
+
+            <input type="password" id="personligkod" placeholder="Fyll i personlig kod (Fyra siffror)"
+              name="personlig kod"><br><br>
+            <br>
+
+            <div class="buttons">
+              <a href="resadetaljer.html" class="buttonloggain">LOGGA IN</a>
+              <!--<button class="buttonloggain">LOGGA IN</button>-->
+            </div>
+          </div>
+        </form>
+      </main>
+
+      <footer>
+        <div class="logo-footer">
+          <a href="index.html">
+            <img src="bilder/logofard.png" alt="botkyrkas färdtjänst logo">
+          </a>
+
+        </div>
+        <div class="footer-icons">
+          <h1 class="kontakt" tabindex="0">KONTAKTA OSS</h1>
+          <span class="material-icons" style="font-size:30px;">phone </span>
+          <p class="telefon" tabindex="0">TEl: 0771-123 456</p>
+          <span class="material-icons" style="font-size:30px;">mail </span>
+          <a href="mailto:kundcenter@botkyrkasfardtjanstresor.se">
+            <p class="mail">kundcenter@botkyrkasfardtjanstresor.se
+            </p>
+          </a>
+        </div>
+
+        <h1 class="footer-text" style="font-size: 1.2em; "> &copy;
+          2021 Botkyrkas Färdtjänst Resor</h1>
+        <a href="tillganglig.html">
+          <h1 class="tillganglig">Tillgänglighetsredogörelse</h1>
+        </a>
+      </footer>
+    </div>
+
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById('mobile-menu-links');
+        const button = document.querySelector('.hamburger');
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+        if (isExpanded) {
+          menu.hidden = true;
+          button.setAttribute('aria-expanded', 'false');
+        } else {
+          menu.hidden = false;
+          button.setAttribute('aria-expanded', 'true');
+        }
+      }
+
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      function toggleMenu() {
+        const menu = document.getElementById('mobile-menu-links');
+        const button = document.querySelector('.hamburger');
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+        if (isExpanded) {
+          menu.hidden = true;
+          button.setAttribute('aria-expanded', 'false');
+        } else {
+          menu.hidden = false;
+          button.setAttribute('aria-expanded', 'true');
+        }
+      }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <!--sat viewport to control the view on devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--inserted an extern css file to my html code-->
+  <link rel="stylesheet" href="stylesheet.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap" rel="stylesheet">
+  <!--font awesome-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Botkyrkas Färdtjänst Resor</title>
+</head>
+
+<body>
+  <div class="content-wrap">
+    <!--skip link-->
+    <a href="#main-content" class="skip">Skip to content</a>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header.logo">
+          <a href="index.html" class="desktop-logo-link">
+            <img class="logo desktop-logo" src="bilder/logofard.png" alt="botkyrkas färdtjänst logo">
+          </a>
+          <!--icons-->
+          <div class="icons">
+            <a href="loggain.html">
+              <span class="material-icons" style="font-size: 40px">person </span></a>
+            <a href="loggain.html">
+              <p class="loggain">LOGGA IN</p>
+            </a>
+
+            <div class="searchbar">
+              <input type="text" class="searchTerm" placeholder="Vad letar du efter?" aria-label="vad letar du efter">
+              <button type="submit" class="searchButton" aria-label="search-button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="desktop-menu">
+            <!--Desktop menu-->
+            <div class="topnav" id="myTopnav">
+
+              <a href="index.html">HEM</a>
+              <a href="bokaresa.html">BOKA</a>
+              <a href="resadetaljer.html">ÄNDRA/AVBOKA</a>
+              <a href="merinfo.html">MER INFO</a>
+              <a href="kontakt.html">KONTAKT</a>
+
+              <a href="javascript:void(0);" aria-label="bars-ikon" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <!--mobile menu-->
+
+        <nav role="navigation" aria-label="Mobile Navigation">
+
+          <div class="mobile-menu">
+            <div class="topnav-mobile">
+
+              <a href="index.html" class="active mobile-logo-link"><img class="mobile-logo" src="bilder/logofard.png"
+                  alt="logo färdtjänst" style="width:150px;"></a>
+              <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu-links"
+                onclick="toggleMenu()">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+              </button>
+              <div id="mobile-menu-links" class="mobile-menu-links" hidden>
+                <a href="index.html">HEM</a>
+                <a href="loggain.html">MINA SIDOR</a>
+                <a href="bokaresa.html">BOKA</a>
+                <a href="resadetaljer.html">ÄNDRA/AVBOKA</a>
+                <a href="merinfo.html">MER INFO</a>
+                <a href="kontakt.html">KONTAKT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="searchbar-mobile">
+
+        <input type="text" aria-label="search" class="searchTerm-mobile" placeholder="Vad letar du efter?">
+        <button type="submit" aria-label="search-button" class="searchButton-mobile">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+
+      <div class="mobile-breadcrumb">
+
+        <ul class="breadcrumb">
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+
+        </ul>
+      </div>
+
+      <main id="main-content">
+
+        <article class="kontakt-tablet">
+          <br><br><br>
+          <div class="textkontakt">
+
+            <h1>Tillgänglighetsredogörelse</h1>
+            <p>
+              Botkyrkas färdtjänst resor står bakom den här webbplatsen. Vi vill att så många som möjligt ska kunna
+              använda webbplatsen. På den här sidan beskriver vi hur www.botkyrkasfardtjanstresor.se uppfyller lagen om
+              tillgänglighet till digital offentlig service, eventuella kända tillgänglighetsproblem och hur du kan
+              rapportera brister till oss så att vi kan åtgärda dem.
+            </p>
+            <h2>Hur tillgänglig är webbplatsen?</h2>
+            <p>Den här webbplatsen är delvis förenlig med lagen om tillgänglighet till digital offentlig service.</p>
+            <h2>Vad kan du göra om du inte kan använda delar av webbplatsen?</h2>
+            <p>Om du behöver information från www.botkyrkasfardtjanstresor.se i något annat format kan du kontakta oss
+              på följande sätt:</p>
+            <ul>
+              <li>skicka e-post till <a
+                  href="mailto:kundcenter@botkyrkasfardtjanstresor.se">kundcenter@botkyrkasfardtjanstresor.se</a>
+              </li>
+              <li>ring vår kundcenter på 0771-123 456 </li>
+            </ul>
+            <h2>Rapportera brister i webbplatsens tillgänglighet</h2>
+            <p>Vi strävar hela tiden efter att förbättra webbplatsens tillgänglighet. Om du upptäcker problem som inte
+              är beskrivna på den här sidan och som hindrar dig från att ta del av vår digitala service, eller om du
+              anser att vi inte uppfyller lagens krav, meddela oss så att vi får veta att problemet finns.</p>
+
+            <a href="mailto:kundcenter@botkyrkasfardtjanstresor.se">Rapportera brister i webbplatsens tillgänglighet via
+              e-post.</a>
+            <h2>Tillsyn</h2>
+            <p>Myndigheten för digital förvaltning har ansvaret att följa upp lagen om tillgänglighet till digital
+              offentlig service. Om du inte är nöjd med hur vi hanterar dina synpunkter kan du kontakta Myndigheten för
+              digital förvaltning och påtala det.</p>
+            <a href="mailto:https://www.digg.se/tdosanmalan">Kontakta myndigheten för digital förvaltning.</a>
+            <h2>Teknisk information om webbplatsens tillgänglighet</h2>
+            <p>Den här webbplatsen är delvis förenlig med nivå AA i standarden Web Content Accessibility Guidelines
+              version 2.1. Vilket innehåll som inte är tillgängligt beskrivs nedan.
+            </p>
+            <h2>Kända tillgänglighetsproblem</h2>
+            <p>För närvarande är vi medvetna om att vi inte lyckats uppfylla alla kriterier i WCAG 2.1 nivå AA på
+              följande delar av webbplatsen:</p>
+            <ul>
+              <li>Några av våra formulär och e-tjänster följer tillgänglighetsprinciperna. Men det saknas fortfarande
+                funktionaliteten bakom dem. </li>
+              <li>Vi saknar för tillfälligt funktionalitet med sök funktikonen som leder till att man får upp innehållet
+                man sökt efter på sidan, men vi jobbar kontinuerligt för att lösa problemet.</li>
+              <li>Det går att zooma in sidan till 200% men det står fortfarande problem när man zoomar in på 150%.</li>
+
+            </ul>
+
+            <h2>Hur vi testat webbplatsen</h2>
+            <p>Vi har gjort en självskattning (intern testning) av www.botkyrkasfardtjanstresor.se, med stöd av
+              personner vi känner omkring oss. Senaste bedömningen gjordes i Januari 2022.
+
+              Denna tillgänglighetsredogörelse uppdaterades senast den 15 Januari 2022.</p>
+
+          </div>
+        </article>
+      </main>
+      <footer>
+        <div class="logo-footer">
+          <a href="index.html">
+            <img src="bilder/logofard.png" alt="botkyrkas färdtjänst logo">
+          </a>
+
+        </div>
+        <div class="footer-icons">
+          <h1 class="kontakt" tabindex="0">KONTAKTA OSS</h1>
+          <span class="material-icons" style="font-size:30px;">phone </span>
+          <p class="telefon" tabindex="0">TEl: 0771-123 456</p>
+          <span class="material-icons" style="font-size:30px;">mail </span>
+          <a href="mailto:kundcenter@botkyrkasfardtjanstresor.se">
+            <p class="mail">kundcenter@botkyrkasfardtjanstresor.se
+            </p>
+          </a>
+        </div>
+
+        <h1 class="footer-text" style="font-size: 1.2em; "> &copy;
+          2021 Botkyrkas Färdtjänst Resor</h1>
+        <a href="tillganglig.html">
+          <h1 class="tillganglig">Tillgänglighetsredogörelse</h1>
+        </a>
+      </footer>
+    </div>
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      function toggleMenu() {
+        const menu = document.getElementById('mobile-menu-links');
+        const button = document.querySelector('.hamburger');
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+        if (isExpanded) {
+          menu.hidden = true;
+          button.setAttribute('aria-expanded', 'false');
+        } else {
+          menu.hidden = false;
+          button.setAttribute('aria-expanded', 'true');
+        }
+      }
+    </script>
+  </div>
+</body>
+
+<!-- Mirrored from studenter.miun.se/~fabe2100/dt068G/projekt/tillganglig.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Apr 2025 05:29:50 GMT -->
+
+</html>
