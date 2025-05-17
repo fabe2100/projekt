@@ -2032,3 +2032,8 @@ footer {
 	margin: 0 auto;
 	display: block;
 }
+@media (min-width: 769px) {
+	.icons a span.material-icons {
+		color: black !important;
+	}
+}
